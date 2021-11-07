@@ -20,7 +20,7 @@ export class Resume {
       <article class="resume">
         {this.showDownloadLink ? (
           <div class="download-pdf screen-only">
-            <a href="https://github.com/yzalvin/resume/raw/master/Alvin%Zhao's%20Resume.pdf">
+            <a href="https://github.com/yzalvin/resume/raw/master/Alvin%20Zhao's%20Resume.pdf">
               Download as PDF
             </a>
           </div>
