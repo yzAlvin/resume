@@ -1,0 +1,16 @@
+import { h } from "@stencil/core";
+export const Experience = ({ company, jobTitle, location, startDate, endDate }, children) => (h("div", { class: "experience" },
+    h("div", { class: "title" },
+        h("div", null,
+            h("span", { class: "company-name" }, company)),
+        h("small", null,
+            jobTitle,
+            " | ",
+            h("svg-icon", { name: "location", small: true }),
+            " ",
+            location,
+            " | ",
+            startDate,
+            " ~ ",
+            endDate || "Now")),
+    children));
