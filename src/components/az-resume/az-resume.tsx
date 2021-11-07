@@ -59,8 +59,8 @@ export class Resume {
             </li>
             <li class="website">
               <svg-icon name="website"></svg-icon>
-              <a href="https://yzalvin.github.io" target="_blank">
-                yzalvin.github.io
+              <a href="https://yzalv.in/" target="_blank">
+                https://yzalv.in/
               </a>
             </li>
             <li class="github screen-only">
