@@ -1,1 +1,1 @@
-import{p as a,b as o}from"./p-a4210235.js";a().then(a=>o([["p-famj6mya",[[1,"az-resume",{showDownloadLink:[4,"show-download-link"]}],[1,"svg-icon",{name:[1],small:[4]}]]]],a));
+import{p as o,b as a}from"./p-a4210235.js";o().then(o=>a([["p-kiet4h56",[[1,"az-resume",{showDownloadLink:[4,"show-download-link"]}],[1,"svg-icon",{name:[1],small:[4]}]]]],o));
