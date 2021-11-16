@@ -13,7 +13,7 @@ export class Resume {
     render() {
         return (h("article", { class: "resume" },
             this.showDownloadLink ? (h("div", { class: "download-pdf screen-only" },
-                h("a", { href: "https://github.com/yzalvin/resume/raw/master/Alvin%Zhao's%20Resume.pdf" }, "Download as PDF"))) : (""),
+                h("a", { href: "https://github.com/yzalvin/resume/raw/master/Alvin%20Zhao's%20Resume.pdf" }, "Download as PDF"))) : (""),
             h("section", { class: "name-and-contact" },
                 h("div", null,
                     h("h1", null, "Alvin Zhao"),
@@ -33,7 +33,7 @@ export class Resume {
                         h("a", { href: "https://www.linkedin.com/in/alvin-zhao/", target: "_blank" }, "LinkedIn Profile")),
                     h("li", { class: "website" },
                         h("svg-icon", { name: "website" }),
-                        h("a", { href: "https://yzalvin.github.io", target: "_blank" }, "yzalvin.github.io")),
+                        h("a", { href: "https://yzalv.in/", target: "_blank" }, "https://yzalv.in/")),
                     h("li", { class: "github screen-only" },
                         h("svg-icon", { name: "github" }),
                         h("a", { href: "https://github.com/yzAlvin", target: "_blank" }, "GitHub Profile")))),

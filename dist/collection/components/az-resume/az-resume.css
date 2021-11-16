@@ -25,6 +25,7 @@
   padding: 5px;
   margin: 10px;
   border-radius: 10px;
+  height: fit-content;
 }
 :host .resume section .section-title {
   font-size: 24px;
@@ -193,14 +194,13 @@
 :host .resume {
   grid-gap: 5px;
   grid-template-columns: 1fr;
-  grid-template-areas: "photo" "name" "about" "skills" "work" "education";
+  grid-template-areas: "photo" "name" "work" "about" "skills" "education";
 }
 @media (min-width: 768px), print {
   :host .resume {
     padding: 30px 20px;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "name photo" "work about" "work skills" "work education";
+    grid-template-areas: "name name" "work about" "work skills" "work education";
   }
   :host .resume section.name-and-contact h1,
 :host .resume section.name-and-contact h5 {

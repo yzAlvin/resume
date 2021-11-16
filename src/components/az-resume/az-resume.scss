@@ -26,6 +26,7 @@
       padding: 5px;
       margin: 10px;
       border-radius: 10px;
+      height: fit-content;
 
       .section-title {
         font-size: 24px;
@@ -228,18 +229,17 @@
     grid-template-areas:
       "photo"
       "name"
+      "work"
       "about"
       "skills"
-      "work"
       "education";
 
     @media (min-width: 768px), print {
       padding: 30px 20px;
       grid-template-columns: 2fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
 
       grid-template-areas:
-        "name photo"
+        "name name"
         "work about"
         "work skills"
         "work education";
